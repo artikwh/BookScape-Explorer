@@ -11,6 +11,12 @@ It allows users to:
 2. View detailed analytics on books stored in the database.
  
 3. Answer frequently asked questions about books based on SQL queries.
+   
+## Features
+
+Search for books using keywords and store in SQL database.
+
+View analytics, such as top authors, publishers, and categories.
 
 # Project Objectives
 
@@ -51,7 +57,7 @@ cd books-explorer
 
 2. Install Dependencies
 
- pip install -r requirements.txt
+  pip install -r requirements.txt
 
 3. Set Up MySQL Database
    
@@ -61,14 +67,42 @@ cd books-explorer
 
 4. Add Google Books API Key
    
-  Replace the api_key variable in the script with your API key.
+   Replace the api_key variable in the script with your API key.
 
 5. Run the Application
 
-  streamlit run app.py
+   streamlit run app.py
 
 6. Access the Application
 
-  Open http://localhost:8501 in your browser.
+   Open http://localhost:8501 in your browser.
+
+# Challenges Faced
+
+1. Data Cleaning:
+
+Managing inconsistent data between API and database.
+
+Handling missing or null values in certain fields.
+
+2. API Rate Limits:
+
+Google Books API limits the number of requests, requiring optimization of API calls.
+
+3. Database Optimization:
+
+Ensuring SQL queries run efficiently with indexed columns.Insights and Learnings
+
+# Insights and Learnings
+
+Successfully integrated Google Books API, enabling real-time data retrieval.
+
+Gained insights into book trends, such as popular authors, languages, and publishers.
+
+Leveraged expanders and tabs for an intuitive user experience in Streamlit.
+
+
+
+
 
 
