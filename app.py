@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import pymysql
 # Your Google Books API key
-api_key = "AIzaSyAs_9xtB1G1YHnJGp1ExXw2pAyhKdWAvXE"
+api_key = "api_key"
 
 # Function to fetch books from Google Books API
 def fetch_books(query, api_key, max_results=50):
